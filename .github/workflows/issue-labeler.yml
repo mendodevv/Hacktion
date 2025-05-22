@@ -16,4 +16,4 @@ jobs:
         configuration-path: .github/issue-labeler.yml
         repo-token: ${{ github.token }}
         include-title: 1 // Default is 1
-        include-body: 1 // Default is 1
+        include-body: 0 // Default is 1
